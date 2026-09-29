@@ -1,0 +1,19 @@
+{
+  "name": "split-expenses",
+  "version": "1.0.0",
+  "description": "Full-stack Split Expenses app with real-time one-to-one chat",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "start:backend": "npm run start --workspace=backend",
+    "build:frontend": "npm run build --workspace=frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

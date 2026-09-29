@@ -1,4 +1,4 @@
-# Split Expenses
+# Split Expences
 
 A full-stack web application for splitting group expenses, featuring **real-time one-to-one chat** between users. Users are uniquely identified by their username.
 
